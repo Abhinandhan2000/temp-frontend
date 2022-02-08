@@ -1,0 +1,526 @@
+@font-face { 
+    font-family:gilroy-bold;
+    src:url("fonts/Gilroy-Bold.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:gilroy-semibold;
+    src:url("fonts/Gilroy-SemiBold.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:gilroy-regular;
+    src:url("fonts/Gilroy-Regular.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+  } 
+  * { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      font-family: gilroy-regular; 
+      font-variant-ligatures: none; 
+      min-height: 100vh; 
+      color: rgb(0, 0, 0); 
+      margin: 0px; 
+      padding-right: 0px; 
+      padding-bottom: 0px; 
+      padding-left: 0px; 
+      padding-top: 0px; 
+      overflow-x: hidden; 
+      margin-top: 0px; 
+      margin-right: 0px; 
+      margin-bottom: 0px; 
+      margin-left: 0px;
+  } 
+  
+  body { 
+      background-color: rgb(15, 15, 15);
+  } 
+  
+  .fEwefL { 
+      background-color: rgb(15, 15, 15); 
+      color: rgb(248, 248, 248); 
+      width: 100vw; 
+      min-height: 100vh; 
+      position: relative; 
+      padding: 60px 200px 200px; 
+      overflow: hidden; 
+      background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png"); 
+      background-size: cover; 
+      background-position: right bottom; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
+      padding-top: 60px; 
+      padding-right: 200px; 
+      padding-bottom: 200px; 
+      padding-left: 200px; 
+      overflow-x: hidden; 
+      overflow-y: hidden; 
+      background-position-x: right; 
+      background-position-y: bottom;
+  } 
+  
+  .gpQrbj { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+  } 
+  
+  .bOrviQ { 
+      margin: 55px 0px 0px -200px; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      width: 100vw; 
+      height: 72px; 
+      background-color: rgb(39, 39, 39); 
+      margin-top: 55px; 
+      margin-right: 0px; 
+      margin-bottom: 0px; 
+      margin-left: -200px;
+  } 
+  
+  .ddPhLv { 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;
+  } 
+  
+  .hpVOts { 
+      display: flex; 
+      align-items: center;
+  } 
+  
+  .ehQGVd { 
+      display: flex; 
+      align-items: center;
+  } 
+  
+  .gyGGjM { 
+      display: none;
+  } 
+  
+  .cbbQNj { 
+      font-size: 25px; 
+      font-family: gilroy-semibold; 
+      line-height: 30px; 
+      letter-spacing: 0.5px; 
+      color: rgb(255, 255, 255);
+  } 
+  
+  .kGQUEh { 
+      display: flex; 
+      margin-left: 17px;
+  } 
+  
+  .edUFdE { 
+      font-family: gilroy-bold; 
+      font-size: 150px; 
+      letter-spacing: -4.5px; 
+      line-height: 150px; 
+      text-align: center; 
+      white-space: pre-line; 
+      margin-top: -10px;
+  } 
+  
+  @media screen and (max-width: 1630px){ 
+    .edUFdE { 
+      font-size: 106px; 
+      line-height: 125px; 
+      letter-spacing: -3px;
+    } 
+  }     
+  
+  .VPxFp { 
+      font-family: gilroy-bold; 
+      font-size: 30px; 
+      letter-spacing: -0.2px; 
+      line-height: 38px; 
+      margin-top: 35px; 
+      text-align: center;
+  } 
+  
+  .fFHWQu { 
+      display: inline-flex; 
+      white-space: nowrap; 
+      align-items: center; 
+      position: relative; 
+      pointer-events: auto; 
+      text-align: center; 
+      padding: 20px 65px; 
+      background-color: rgb(255, 255, 255); 
+      color: rgb(0, 0, 0); 
+      font-size: 24px; 
+      font-family: gilroy-bold; 
+      letter-spacing: 0.4px; 
+      line-height: 30px; 
+      border-radius: 40px; 
+      cursor: pointer; 
+      margin-top: 58px; 
+      padding-top: 20px; 
+      padding-right: 65px; 
+      padding-bottom: 20px; 
+      padding-left: 65px; 
+      border-top-left-radius: 40px; 
+      border-top-right-radius: 40px; 
+      border-bottom-right-radius: 40px; 
+      border-bottom-left-radius: 40px;
+  } 
+  
+  .cstQZH { 
+      width: 49px; 
+      height: 66px;
+  } 
+  
+  .fpGwhb { 
+      padding: 4px 0px; 
+      position: relative; 
+      padding-top: 4px; 
+      padding-right: 0px; 
+      padding-bottom: 4px; 
+      padding-left: 0px;
+  } 
+  
+  button { 
+      margin: 0px; 
+      padding: 0px; 
+      margin-top: 0px; 
+      margin-right: 0px; 
+      margin-bottom: 0px; 
+      margin-left: 0px; 
+      padding-top: 0px; 
+      padding-right: 0px; 
+      padding-bottom: 0px; 
+      padding-left: 0px;
+  } 
+  
+  .hcIRQt { 
+      z-index: 2; 
+      background: none; 
+      border: none; 
+      background-image: none; 
+      background-position-x: initial; 
+      background-position-y: initial; 
+      background-size: initial; 
+      background-position-x: initial; 
+      background-position-y: initial; 
+      background-attachment: initial; 
+      background-origin: initial; 
+      background-clip: initial; 
+      background-color: initial; 
+      border-top-width: initial; 
+      border-right-width: initial; 
+      border-bottom-width: initial; 
+      border-left-width: initial; 
+      border-top-style: none; 
+      border-right-style: none; 
+      border-bottom-style: none; 
+      border-left-style: none; 
+      border-top-color: initial; 
+      border-right-color: initial; 
+      border-bottom-color: initial; 
+      border-left-color: initial; 
+      border-image-source: initial; 
+      border-image-slice: initial; 
+      border-image-width: initial; 
+      border-image-outset: initial; 
+      border-image-repeat: initial;
+  } 
+  
+  .gScKBO { 
+      position: fixed; 
+      background-color: rgb(15, 15, 15); 
+      display: flex; 
+      flex-direction: column; 
+      transform: translateX(100%); 
+      height: 100vh; 
+      text-align: left; 
+      padding: 2rem; 
+      top: 0px; 
+      left: 0px; 
+      transition: transform 0.3s ease-in-out 0s; 
+      padding-top: 2rem; 
+      padding-right: 2rem; 
+      padding-bottom: 2rem; 
+      padding-left: 2rem; 
+      transition-duration: 0.3s; 
+      transition-timing-function: ease-in-out; 
+      transition-delay: 0s; 
+      transition-property: transform;
+  } 
+  
+  a { 
+      text-decoration: none; 
+      outline: 0px; 
+      text-decoration-line: none; 
+      text-decoration-thickness: initial; 
+      text-decoration-style: initial; 
+      text-decoration-color: initial; 
+      outline-color: initial; 
+      outline-style: initial; 
+      outline-width: 0px;
+  } 
+  
+  .dXOGJG { 
+      text-decoration: none; 
+      outline: none; 
+      cursor: pointer; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      text-decoration-line: none; 
+      text-decoration-thickness: initial; 
+      text-decoration-style: initial; 
+      text-decoration-color: initial; 
+      outline-color: initial; 
+      outline-style: none; 
+      outline-width: initial;
+  } 
+  
+  .jQyYQZ { 
+      margin-left: 36px; 
+      font-family: gilroy-semibold; 
+      font-size: 18px; 
+      letter-spacing: 0px; 
+      line-height: 18px;
+  } 
+  
+  .fpGwhb > a  { 
+      color: rgb(255, 255, 255); 
+      opacity: 0.8; 
+      font-family: Gilroy-Semibold; 
+      font-size: 18px; 
+      line-height: 36px; 
+      white-space: nowrap; 
+      margin-right: 20px;
+  } 
+  
+  .KmvFF { 
+      margin-right: 0px; 
+      background: none; 
+      border: none; 
+      display: block; 
+      position: relative; 
+      cursor: pointer; 
+      background-image: none; 
+      background-position-x: initial; 
+      background-position-y: initial; 
+      background-size: initial; 
+      background-repeat-x: initial; 
+      background-repeat-y: initial; 
+      background-attachment: initial; 
+      background-origin: initial; 
+      background-clip: initial; 
+      background-color: initial; 
+      border-top-width: initial; 
+      border-right-width: initial; 
+      border-bottom-width: initial; 
+      border-left-width: initial; 
+      border-top-style: none; 
+      border-right-style: none; 
+      border-bottom-style: none; 
+      border-left-style: none; 
+      border-top-color: initial; 
+      border-right-color: initial; 
+      border-bottom-color: initial; 
+      border-left-color: initial; 
+      border-image-source: initial; 
+      border-image-slice: initial; 
+      border-image-width: initial; 
+      border-image-outset: initial; 
+      border-image-repeat: initial;
+  } 
+  
+  .hcIRQt div  { 
+      margin-right: 0px; 
+      background: none; 
+      border: none; 
+      display: block; 
+      width: 33px; 
+      height: 32px; 
+      position: relative; 
+      cursor: pointer; 
+      background-image: none; 
+      background-position-x: initial; 
+      background-position-y: initial; 
+      background-size: initial; 
+      background-repeat-x: initial; 
+      background-repeat-y: initial; 
+      background-attachment: initial; 
+      background-origin: initial; 
+      background-clip: initial; 
+      background-color: initial; 
+      border-top-width: initial; 
+      border-right-width: initial; 
+      border-bottom-width: initial; 
+      border-left-width: initial; 
+      border-top-style: none; 
+      border-right-style: none; 
+      border-bottom-style: none; 
+      border-left-style: none; 
+      border-top-color: initial; 
+      border-right-color: initial; 
+      border-bottom-color: initial; 
+      border-left-color: initial; 
+      border-image-source: initial; 
+      border-image-slice: initial; 
+      border-image-width: initial; 
+      border-image-outset: initial; 
+      border-image-repeat: initial;
+  } 
+  
+  .dJUcrR { 
+      margin-top: 120px;
+  } 
+  
+  .fopWDW { 
+      font-size: 25px; 
+      font-family: gilroy-semibold; 
+      line-height: 25px; 
+      color: rgb(126, 162, 236); 
+      opacity: 0.9;
+  } 
+  
+  .dszorQ { 
+      width: 11.84px; 
+      height: 11px; 
+      margin: 7px 0px 0px 8px; 
+      margin-top: 7px; 
+      margin-right: 0px; 
+      margin-bottom: 0px; 
+      margin-left: 8px;
+  } 
+    
+  .KmvFF input  { 
+      display: none;
+  } 
+  
+  .KmvFF input ~ div  { 
+      position: absolute; 
+      height: 3px; 
+      border-radius: 2px; 
+      background: rgb(255, 255, 255); 
+      opacity: 0.7; 
+      transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0s, width 0.2s ease 0.2s; 
+      border-top-left-radius: 2px; 
+      border-top-right-radius: 2px; 
+      border-bottom-right-radius: 2px; 
+      border-bottom-left-radius: 2px; 
+      background-image: initial; 
+      background-position-x: initial; 
+      background-position-y: initial; 
+      background-size: initial; 
+      background-repeat-x: initial; 
+      background-repeat-y: initial; 
+      background-attachment: initial; 
+      background-origin: initial; 
+      background-clip: initial; 
+      background-color: rgb(255, 255, 255); 
+      transition-duration: 0.45s, 0.2s; 
+      transition-timing-function: cubic-bezier(0.9, -0.6, 0.3, 1.6), ease; 
+      transition-delay: 0s, 0.2s; 
+      transition-property: transform, width;
+  } 
+  
+  .hcIRQt div:nth-child(2)  { 
+      width: 28px; 
+      transform: translate(5px, 0px) rotate(0deg); 
+      transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s; 
+      top: 14px; 
+      left: 0px; 
+      transition-duration: 0.45s; 
+      transition-timing-function: cubic-bezier(0.9, -0.6, 0.3, 1.6); 
+      transition-delay: 0.1s; 
+      transition-property: transform;
+  } 
+  
+  .hcIRQt div:nth-child(3)  { 
+      transform: translate(0px, 0px) rotate(0deg); 
+      width: 33px; 
+      top: 4px; 
+      left: 0px;
+  } 
+  
+  .hcIRQt div:nth-child(4)  { 
+      transform: translateX(0px) rotate(0deg); 
+      transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0s, width 0.2s ease 0.2s; 
+      width: 33px; 
+      bottom: 5px; 
+      right: 0px; 
+      transition-duration: 0.45s, 0.2s; 
+      transition-timing-function: cubic-bezier(0.9, -0.6, 0.3, 1.6), ease; 
+      transition-delay: 0s, 0.2s; 
+      transition-property: transform, width;
+  } 
+  
+  .jXDZRr { 
+      padding: 15px; 
+      position: relative; 
+      background-color: rgba(39, 43, 45, 0.43); 
+      margin-bottom: 20px; 
+      border: 1px solid transparent; 
+      border-radius: 15px; 
+      padding-top: 15px; 
+      padding-right: 15px; 
+      padding-bottom: 15px; 
+      padding-left: 15px; 
+      border-top-width: 1px; 
+      border-right-width: 1px; 
+      border-bottom-width: 1px; 
+      border-left-width: 1px; 
+      border-top-style: solid; 
+      border-right-style: solid; 
+      border-bottom-style: solid; 
+      border-left-style: solid; 
+      border-top-color: transparent; 
+      border-right-color: transparent; 
+      border-bottom-color: transparent; 
+      border-left-color: transparent; 
+      border-image-source: initial; 
+      border-image-slice: initial; 
+      border-image-width: initial; 
+      border-image-outset: initial; 
+      border-image-repeat: initial; 
+      border-top-left-radius: 15px; 
+      border-top-right-radius: 15px; 
+      border-bottom-right-radius: 15px; 
+      border-bottom-left-radius: 15px;
+  } 
+  
+  .ewCAWC { 
+      width: 100%; 
+      display: block; 
+      margin-left: 36px; 
+      font-family: gilroy-semibold; 
+      font-size: 18px; 
+      letter-spacing: 0px; 
+      line-height: 18px; 
+      text-decoration: none; 
+      text-decoration-line: none; 
+      text-decoration-thickness: initial; 
+      text-decoration-style: initial; 
+      text-decoration-color: initial;
+  } 
+  
+  .gScKBO a  { 
+      color: rgb(239, 235, 236); 
+      text-decoration: none; 
+      transition: color 0.3s linear 0s; 
+      font-family: Gilroy-Semibold; 
+      text-decoration-line: none; 
+      text-decoration-thickness: initial; 
+      text-decoration-style: initial; 
+      text-decoration-color: initial; 
+      transition-duration: 0.3s; 
+      transition-timing-function: linear; 
+      transition-delay: 0s; 
+      transition-property: color;
+  } 
+  
+  
+  
